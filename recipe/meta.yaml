@@ -16,7 +16,6 @@ build:
   noarch: generic
   merge_build_host: True  # [win]
   number: 1002
-  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
@@ -38,7 +37,7 @@ test:
 
 about:
   home: https://github.com/robjhyndman/expsmooth
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: 'Data sets from the book "Forecasting with exponential smoothing: the state space
     approach" by  Hyndman, Koehler, Ord and Snyder (Springer, 2008).'
   license_family: GPL3
@@ -47,10 +46,4 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
     - philip-khor
