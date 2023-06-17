@@ -1,11 +1,11 @@
-About r-expsmooth
-=================
+About r-expsmooth-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-expsmooth-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/robjhyndman/expsmooth
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-expsmooth-feedstock/blob/main/LICENSE.txt)
 
 Summary: Data sets from the book "Forecasting with exponential smoothing: the state space approach" by  Hyndman, Koehler, Ord and Snyder (Springer, 2008).
 
