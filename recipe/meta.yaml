@@ -1,4 +1,4 @@
-{% set version = '2.3' %}
+{% set version = "2.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,11 +9,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/expsmooth_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/expsmooth/expsmooth_{{ version }}.tar.gz
-  sha256: ac7da36347f983d6ec71715daefd2797fe2fc505c019f4965cff9f77ce79982a
+  sha256: 72210091fed361b65e8cf19ce6c0eb5c0d8694eef98c76cc9fbdafce60d5f7c1
 
 build:
   noarch: generic
-  number: 1006
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -36,8 +36,7 @@ test:
 about:
   home: https://github.com/robjhyndman/expsmooth
   license: GPL-2.0-or-later
-  summary: 'Data sets from the book "Forecasting with exponential smoothing: the state space
-    approach" by  Hyndman, Koehler, Ord and Snyder (Springer, 2008).'
+  summary: 'Data sets from the book "Forecasting with exponential smoothing: the state space approach" by  Hyndman, Koehler, Ord and Snyder (Springer, 2008).'
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
